@@ -52,7 +52,7 @@ if (isset($_REQUEST['lang'])) {
     <td align="right">
      <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, 'UTF-8'); ?>" method="get">
       <input type="text" name="decoded" value="<?php echo htmlspecialchars($decoded, ENT_QUOTES, 'UTF-8'); ?>" size="48" maxlength="255" /><br />
-      <?php echo $version_select; ?>
+      <?php //echo $version_select; ?>
       <input type="submit" name="encode" value="Encode &gt;&gt;" /><?php echo $add; ?>
      </form>
     </td>
